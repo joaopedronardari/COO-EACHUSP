@@ -1,6 +1,8 @@
 Resposta
 1 - O que acontece? - Aparece a mensagem de erro "Erro: NÒo foi possÝvel localizar nem carregar a classe principal Print"
 2 - Como rodar essa classe a partir de laboratorio1?
+	Devemos primeiramente no arquivo Print.java inserir a linha para definir o pacote em que a classe que imprime está. No caso "package projeto1;". Além disso é necessário definir o especificador de acesso da classe. Neste caso para acessar do diretório acima pode ser utilizado "protected class".
+	Em seguida dentro da pasta laboratorio1 devemos criar uma classe principal (Principal.java). Esta deve importar a classe do pacote projeto1 (import projeto1.Print;) e utilizar o metodo static definido em Print.java.
 
 3 - Como rodar essa classe a partir de um diretório qualquer?
 
