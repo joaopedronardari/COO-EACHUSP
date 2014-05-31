@@ -1,0 +1,7 @@
+Resposta
+1 - O que acontece? - Aparece a mensagem de erro "Erro: NÒo foi possÝvel localizar nem carregar a classe principal Print"
+2 - Como rodar essa classe a partir de laboratorio1?
+
+3 - Como rodar essa classe a partir de um diretório qualquer?
+
+4 - Qual a função do classpath?
