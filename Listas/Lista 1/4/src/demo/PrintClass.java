@@ -3,7 +3,7 @@ package demo;
 import math.geometry.Circle;
 import math.geometry.Rectangle;
 import math.geometry.Triangle;
-import math.geometry.exceptions.GeometryNumberNullParamException;
+import math.geometry.exceptions.GeometryNegativeNumberParamException;
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -39,7 +39,7 @@ public class PrintClass {
 				}
 			} catch (java.util.InputMismatchException e) {
 				System.out.println("Erro de Entrada. Digite sua opcao + os parametros numericos!");
-			} catch (GeometryNumberNullParamException e) {
+			} catch (GeometryNegativeNumberParamException e) {
 				System.out.println("Algum parametro esta negativo!");
 			}	
 

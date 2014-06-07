@@ -1,7 +1,7 @@
 package math.geometry.exceptions;
 
-public class GeometryNumberNullParamException extends GeometryException {
-	public GeometryNumberNullParamException() {
+public class GeometryNegativeNumberParamException extends GeometryException {
+	public GeometryNegativeNumberParamException() {
 		super("Parametro passado está nulo");
 	}
 }
