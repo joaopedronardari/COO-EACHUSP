@@ -15,13 +15,13 @@ public class Par<X,Y> {
 		return objeto2;
 	}
 
-	public Object maior() {
+	public <T> T maior() {
 		int hash1 = objeto1.hashCode();
 		int hash2 = objeto2.hashCode();
 		
 		if (hash1 > hash2)
-			return objeto1;
+			return (T) objeto1;
 
-		return objeto2;
+		return (T) objeto2;
 	}
 }
