@@ -1,0 +1,14 @@
+comandos 
+
+cd demo
+
+javac -classpath ../ PrintClass.java
+java  -classpath ../ demo.PrintClass
+
+ou
+
+pasta raiz
+
+javac -classpath ./ demo\PrintClass.java
+
+java -classpath ./ demo.PrintClass
