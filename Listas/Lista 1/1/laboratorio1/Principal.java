@@ -1,6 +1,6 @@
+package laboratorio1;
 
-
-import projeto1.PrintClass;
+import laboratorio1.projeto1.PrintClass;
 
 public class Principal {
 	
