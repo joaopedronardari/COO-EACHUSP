@@ -18,17 +18,17 @@ public class PrintClass {
 			switch (entrada) {
 				case "circulo": {
 					Circle circle = new Circle(sc.nextDouble());
-					System.out.println(circle.calcArea());
+					imprimirResultado(circle.calcArea());
 					break;
 				}
 				case "retangulo": {
 					Rectangle rectangle = new Rectangle(sc.nextDouble(),sc.nextDouble());
-					System.out.println(rectangle.calcArea());
+					imprimirResultado(rectangle.calcArea());
 					break;
 				}
 				case "triangulo": {
 					Triangle triangle = new Triangle(sc.nextDouble(),sc.nextDouble(),sc.nextDouble());
-					System.out.println(triangle.calcArea());
+					imprimirResultado(triangle.calcArea());
 					break;
 				}
 			}
@@ -39,5 +39,9 @@ public class PrintClass {
 
 	public static void imprimir() {
 		System.out.println("Hello");
+	}
+
+	public static void imprimirResultado(double resultado) {
+		System.out.println("Area = " + resultado);
 	}
 }
