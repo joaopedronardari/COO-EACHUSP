@@ -3,7 +3,7 @@ public class Teste {
 	public static void main(String[] args) {
 		// Primeiro teste
 		System.out.println("exercicio2 - Teste1");
-		Par<String,Integer> par = new Par<String,Integer>();
+		ParNaoGenerica par = new ParNaoGenerica();
 
 		System.out.println("exercicio2 - Teste2");
 		par.adiciona("Joao Pedro", 1994);
@@ -17,7 +17,7 @@ public class Teste {
 
 		// Segundo teste
 		System.out.println("exercicio2 - Teste1");
-		Par<Double,Integer> par2 = new Par<Double,Integer>();
+		ParNaoGenerica par2 = new ParNaoGenerica();
 
 		System.out.println("exercicio2 - Teste2");
 		par2.adiciona(3.14, 314);
