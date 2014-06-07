@@ -1,8 +1,8 @@
-package src.demo;
+package demo;
 
-import src.math.geometry.Circle;
-import src.math.geometry.Rectangle;
-import src.math.geometry.Triangle;
+import math.geometry.Circle;
+import math.geometry.Rectangle;
+import math.geometry.Triangle;
 
 public class PrintClass {
 	public static void main(String[] args){

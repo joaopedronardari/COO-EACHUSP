@@ -1,4 +1,4 @@
-package src.math.geometry;
+package math.geometry;
 
 public class Circle implements Shape {
 	private static final double pi = 3.14; // arredondado

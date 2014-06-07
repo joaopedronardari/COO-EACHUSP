@@ -1,4 +1,4 @@
-package src.math.geometry;
+package math.geometry;
 
 interface Shape {
 	double calcArea();

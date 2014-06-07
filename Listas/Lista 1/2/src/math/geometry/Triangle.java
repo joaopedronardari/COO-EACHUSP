@@ -1,4 +1,4 @@
-package src.math.geometry;
+package math.geometry;
 
 public class Triangle implements Shape {
 	private double lado1;
