@@ -14,7 +14,6 @@ public class PrintClass {
 
 		String entrada = sc.next();
 		while (!entrada.equals("sair")) {
-
 			switch (entrada) {
 				case "circulo": {
 					Circle circle = new Circle(sc.nextDouble());
@@ -32,7 +31,7 @@ public class PrintClass {
 					break;
 				}
 			}
-
+				
 			entrada = sc.next();
 		}
 	}
