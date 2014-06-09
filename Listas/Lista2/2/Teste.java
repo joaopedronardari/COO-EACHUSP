@@ -32,15 +32,15 @@ public class Teste {
 
 	private static void imprimeObjeto(Object objeto) {
 		if (objeto instanceof String) {
-			String maiorString = (String) objeto;
+			String maiorString = objeto;
 			System.out.println("String " + maiorString);
 		}
 		else if (objeto instanceof Integer) { 
-			Integer maiorInt = (Integer) objeto;
+			Integer maiorInt = objeto;
 			System.out.println("Integer " + maiorInt);
 		}
 		else if (objeto instanceof Double) {
-			Double maiorDouble = (Double) objeto;
+			Double maiorDouble = objeto;
 			System.out.println("Double " + maiorDouble);
 		}
 	}	

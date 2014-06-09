@@ -1,0 +1,4 @@
+Caso tente adicionar String no Par que aceita Doubles acontece o erro de "cannot be applied to given types".
+
+Caso não faça o cast o tipo não sofrerá conversao e acontecerá um erro de incompatible class
+

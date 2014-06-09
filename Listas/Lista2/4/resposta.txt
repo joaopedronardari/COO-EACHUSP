@@ -1,0 +1,1 @@
+Ao tornar Par.java generica, os metodos de retorno não necessitam mais de cast para o tipo que ja sabiamos que estava setado.

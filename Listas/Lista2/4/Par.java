@@ -15,6 +15,7 @@ public class Par<X,Y> {
 		return objeto2;
 	}
 
+	// TODO tornar generico
 	public Object maior() {
 		int hash1 = objeto1.hashCode();
 		int hash2 = objeto2.hashCode();
