@@ -14,19 +14,24 @@ public class FilaGenerica {
 	}
 
 	public void adiciona(Object object) {
-		totalElementos++;
-		objetosFila[totalElementos-1] = object;
+		if (totalElementos+1 <= objetosFila.length) {
+			totalElementos++;
+			objetosFila[totalElementos-1] = object;
+		}
 	}
 
 	public Object remove() {
-		Object retorno = objetosFila[0];
+		if (totalElementos > 0) {
+			Object retorno = objetosFila[0];
 
-		for (int i = 0; i<totalElementos; i++) {
-			objetosFila[i] = objetosFila[i+1];
-		}
+			for (int i = 0; i<totalElementos-1; i++) {
+				objetosFila[i] = objetosFila[i+1];
+			}
 
-		totalElementos--;
-		return retorno;
+			totalElementos--;
+			return retorno;
+		} else
+			return null;
 	}
 
 	public int tamanho() {
