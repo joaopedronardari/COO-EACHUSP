@@ -1,0 +1,23 @@
+1- O padrão facade é recomendado de ser aplicado para a utilização de subsistemas em conjunto. Com ele há a simplificação de todos eles em uma interface que os une facilitando o uso destes.
+
+2- JOptionPane da API Java que é responsável por quando chamada já criar diversos componentes gráficos (Botões, campos de textos) sem a necessidade de chamada cada um.
+
+3- Fiz o código - GitHub
+
+4- Fiz o código - GitHub
+
+5- Um exemplo de uso de Singleton seria getRuntime() que retorna uma unica instancia da Runtime class da aplicação JAva.
+
+6- Padrão singleton ? - Código no GitHub - DUVIDA *** AINDA EM DISCUSSÃO
+
+7- Fiz código - GitHub
+
+8- Ao desacoplar e fornecer a maneira de acessar os elementos sequencialmente no iterator você não expoe sua representação e independente da maneira que foi implementado (Exemplo uso de ArrayList ou Matriz) o uso do iterator sempre será o mesmo não comprometendo a iteração dos elementos com hasNext() e next().
+
+9- A classe que mantem o conjunto de elementos, assim o cliente só tera que utilizar a interface iterator para iterar os items, ele não necessita saber quais das implementações o conjunto utilizou, assim não expoe sua representação.
+
+10- Esta é a aplicação do padrão de projeto strategy, pois a partir da implementação de uma interface compõe caracteristicas de layout dentro da classe JFrame. Sendo esta implementação encapsulada e intercambiável, deixando o algoritmo variar independentemente, no caso o layout.
+
+11- Fiz código - GitHub - Desenhei no caderno...
+
+12- Representa o padrão strategy. Fiz código - Github
